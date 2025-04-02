@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background: blue;
+    }
+</style>
+
+<body>
+   
+    <div class="box">
+        你好
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs/dayjs.min.js"></script>
+    <script>
+        window.onload = function () {
+            setInterval(newTime, 1000)
+            function newTime() {
+                const date = new Date()
+                const str = dayjs(date).format('HH:Dd:ss')
+                document.getElementsByClassName('box')[0].innerText = str
+            }
+        }
+
+        console.log(document.getElementsByClassName('box'));
+
+    </script>
+</body>
+
+</html>
