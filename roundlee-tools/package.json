@@ -1,0 +1,12 @@
+{
+    "name":"roundlee-tools",
+    "version":"1.0.0",
+    "mian":"index.js",
+    "description":"提供了时间格式化",
+    "kewords":[
+       "roundlee",
+       "study"
+    ],
+    "license":"ISC"
+
+}
