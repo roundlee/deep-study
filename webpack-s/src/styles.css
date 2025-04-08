@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    width: 200px;
+    margin: auto;
+}
+ul li {
+    background: blue;
+}
+img{
+    margin: auto;
+}
